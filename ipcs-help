@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ipcs -q
+echo ""
+echo ""
+ipcs -m
+echo ""
+echo ""
+ipcs -s

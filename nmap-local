@@ -1,0 +1,6 @@
+#!/bin/bash
+
+nmap -sT -O localhost
+echo ""
+echo ""
+lsof -i
