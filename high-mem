@@ -1,0 +1,1 @@
+ps -eo pid,user,%mem,command | sort -k3 -r -n | head -n10

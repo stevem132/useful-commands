@@ -1,0 +1,1 @@
+hammer --csv --no-headers host list --search "host_collection ==xxx" | awk -F, '{ print $2 }'

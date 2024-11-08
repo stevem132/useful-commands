@@ -1,0 +1,4 @@
+systemctl set-property --runtime <service name>.service CPUQuota=<percetage>% MemoryLimit=xxxM/G
+
+systemctl daemon-reload
+systemctl restart <service name>
